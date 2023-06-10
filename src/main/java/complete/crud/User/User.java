@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -22,7 +23,9 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+       
     private String name;
+
     private String f_name;
     
 }
